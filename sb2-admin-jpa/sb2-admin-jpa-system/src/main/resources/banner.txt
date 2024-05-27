@@ -1,0 +1,4 @@
+ Application Name: ${spring.application.name}
+ Application Version: 2024.04.02
+ Spring Boot Version: ${spring-boot.version}
+

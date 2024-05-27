@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.daqinzhonggong.sb2.admin</groupId>
+  <artifactId>end-sb2-admin</artifactId>
+  <version>2024.04.02</version>
+  <name>end-sb2-admin 后台管理模块BOM ${project.version}</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>sb2-admin-jpa</module>
+    <module>sb2-admin-mp</module>
+  </modules>
+
+</project>
+

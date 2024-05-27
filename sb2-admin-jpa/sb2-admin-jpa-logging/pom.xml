@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.daqinzhonggong.sb2.admin</groupId>
+        <artifactId>sb2-admin-jpa</artifactId>
+        <version>2024.04.02</version>
+    </parent>
+
+    <artifactId>sb2-admin-jpa-logging</artifactId>
+    <name>sb2-admin-jpa-logging 日志模块 ${project.version}</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.daqinzhonggong.sb2.admin</groupId>
+            <artifactId>sb2-admin-jpa-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
