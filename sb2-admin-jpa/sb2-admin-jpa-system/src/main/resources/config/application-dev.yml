@@ -4,9 +4,9 @@ spring:
     druid:
       db-type: com.alibaba.druid.pool.DruidDataSource
       driverClassName: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-      url: jdbc:log4jdbc:mysql://${DB_HOST:192.168.31.210}:${DB_PORT:3306}/${DB_NAME:sb2-admin-jpa}?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowMultiQueries=true
+      url: jdbc:log4jdbc:mysql://${DB_HOST:127.0.0.1}:${DB_PORT:3306}/${DB_NAME:sb2-admin-jpa}?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&allowMultiQueries=true
       username: ${DB_USER:root}
-      password: ${DB_PWD:J95VRzs5cUMxELQPFdGf2P9PSL367M56pCa3r2MvvwNGmyuDxpZm6C37BVM3dpVWmj7uGwD5g8bQFhyQCc7GW8PxwML5qCBkND7}
+      password: ${DB_PWD:123456}
       # 初始连接数
       initial-size: 5
       # 最小连接数
@@ -51,7 +51,7 @@ spring:
   redis:
     #数据库索引
     database: ${REDIS_DB:0}
-    host: ${REDIS_HOST:192.168.31.210}
+    host: ${REDIS_HOST:127.0.0.1}
     port: ${REDIS_PORT:6379}
     password: ${REDIS_PWD:}
     #连接超时时间
